@@ -103,6 +103,10 @@ img {
   color: #fff;
 }
 
+#myGitHub:hover {
+  color: #f39db6;
+}
+
 #copyright {
   font-size: 12px;
 }
