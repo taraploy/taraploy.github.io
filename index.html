@@ -12,6 +12,10 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/00b9a868d2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" href="src/images/woman-emoji.png" />
     <title>Tara Bush</title>
   </head>
@@ -21,7 +25,9 @@
       <div class="row nav-bar text-center">
         <div class="col-md-12">
           <ul>
-            <li><a href="#aboutme">About me</a></li>
+            <li>
+              <a href="#" id="aboutme" onclick="backToTop()">About me</a>
+            </li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -66,8 +72,11 @@
       <div class="row">
         <div class="col-md-12 d-block">
           <hr />
-          <h4 id="aboutme">About me</h4>
+          <h4 id="">About me</h4>
           <p class="my-desc">
+            My name is <strong><i>Tara Bush</i></strong
+            >.
+            <br />
             I am currently in my last semester at Weber State University, where
             I will be receiving Bachelor of Science in Computer Science with Web
             Technology minor in August 2021.
@@ -89,17 +98,18 @@
         <h4 id="contact">Contact</h4>
         <hr />
         <div class="myInfo">
-          <p>Tara Bush</p>
-          <p>Email: tara.ployy@gmail.com</p>
+          <p id="myName">Tara Bush</p>
+          <p><i class="far fa-envelope"></i> tara.ployy@gmail.com</p>
           <p>
-            GitHub:
+            <i class="fab fa-github"></i>
             <a id="myGitHub" href="https://github.com/taraploy" target="_blank"
               >https://github.com/taraploy</a
             >
           </p>
         </div>
         <p>
-          &#169; <span id="copyright">Copyright 2021 &#183; Tara Bush</span>
+          <i class="far fa-copyright"></i>
+          <span id="copyright">Copyright 2021 &#183; Tara Bush</span>
         </p>
       </div>
     </div>

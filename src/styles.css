@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #000;
+  color: #333;
   background-color: #fff;
 }
 
@@ -97,6 +97,10 @@ img {
   padding-bottom: 25px;
   border-top: solid 5px #f39db6;
   background-color: #333 !important;
+}
+
+#myName {
+  font-size: 17px;
 }
 
 #myGitHub {
