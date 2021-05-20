@@ -52,7 +52,11 @@ ul a:hover {
 ul li {
   display: inline;
   font-size: 20px;
-  margin: auto 27px;
+  margin: auto 15px;
+}
+
+h4 {
+  padding-bottom: 10px;
 }
 
 /* Name and Profile picture */
@@ -85,6 +89,20 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+}
+
+/* Projects area */
+.card {
+  width: 25rem;
+  padding: 3px;
+}
+
+.repository-btn {
+  color: #333;
+}
+
+.repository-btn:hover {
+  color: #f39db6;
 }
 
 /* Contact area */

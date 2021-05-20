@@ -22,14 +22,14 @@
   <body>
     <!-- Nav -->
     <div class="container-fluid">
-      <div class="row nav-bar text-center">
+      <div class="row nav-bar text-end">
         <div class="col-md-12">
           <ul>
             <li>
               <a href="#" id="aboutme" onclick="backToTop()">About me</a>
             </li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Get in Touch</a></li>
           </ul>
         </div>
       </div>
@@ -76,6 +76,9 @@
           <p class="my-desc">
             My name is <strong><i>Tara Bush</i></strong
             >.
+            <!-- For navigation -->
+            <span id="projects" aria-hidden="true"></span>
+            <!--  -->
             <br />
             I am currently in my last semester at Weber State University, where
             I will be receiving Bachelor of Science in Computer Science with Web
@@ -87,15 +90,41 @@
       <div class="row">
         <div class="col-md-12 d-block">
           <hr />
-          <h4 id="projects">Projects</h4>
-          <p>Under construction</p>
+          <h4>Projects</h4>
+          <!-- <p>This section is under construction.</p> -->
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="src/images//LMS_preview.png"
+              alt="LMS Preview"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Learning Management System</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Group project</h6>
+              <p class="card-text">
+                A web application that supports online learning and teaching. It
+                allows instructors to do a CRUD operations for courses and
+                assignments, post grades, information, assignments online, and
+                allows students to register/unregister for courses, submit
+                assignments, check their grades, and make payments.
+              </p>
+              <i class="fab fa-github"></i
+              ><a
+                href="https://github.com/taraploy/Grindteam_LMS"
+                target="_blank"
+                class="repository-btn"
+              >
+                <i>GitHub Repository</i></a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- Contact -->
     <div class="container-fluid contact-box text-left">
       <div class="col-md-12 container d-block">
-        <h4 id="contact">Contact</h4>
+        <h4 id="contact">Get in Touch</h4>
         <hr />
         <div class="myInfo">
           <p id="myName">Tara Bush</p>
@@ -107,9 +136,9 @@
             >
           </p>
         </div>
-        <p>
+        <p class="text-end">
           <i class="far fa-copyright"></i>
-          <span id="copyright">Copyright 2021 &#183; Tara Bush</span>
+          <span id="copyright"> 2021 &#183; Tara Bush</span>
         </p>
       </div>
     </div>
