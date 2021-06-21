@@ -101,11 +101,13 @@ img {
   margin: 0 auto;
 }
 
-.repository-btn {
+a .gitHub-link {
   color: #333;
+  font-style: italic;
+  transition: all 0.3s ease-in-out;
 }
 
-.repository-btn:hover {
+a .gitHub-link:hover {
   color: #f39db6;
 }
 
